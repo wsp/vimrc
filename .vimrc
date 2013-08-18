@@ -12,7 +12,7 @@ Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'vim-scripts/VimClojure'
-Bundle 'scrooloose/nerdtree'
+" Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'ervandew/supertab'
 Bundle 'jeetsukumaran/vim-buffergator'
@@ -69,5 +69,11 @@ let vimclojure#WantNailgun = 0
 " Taglist configuration
 let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 
+" Netrw
+let g:netrw_preview = 1
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+let g:netrw_liststyle = 3
+
 " NERDTree configuration
-map <leader>n :NERDTreeToggle<CR>
+" map <leader>n :NERDTreeToggle<CR>
