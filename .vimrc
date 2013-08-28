@@ -19,6 +19,7 @@ Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'corntrace/bufexplorer'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
+Bundle 'majutsushi/tagbar'
 
 color koehler
 filetype plugin indent on
@@ -77,3 +78,10 @@ let g:netrw_liststyle = 3
 
 " NERDTree configuration
 " map <leader>n :NERDTreeToggle<CR>
+"
+" Syntastic configuration
+let g:syntastic_c_include_dirs = [ 'cpputest/include', 'include' ]
+let g:syntastic_cpp_include_dirs = [ 'cpputest/include', 'include' ]
+
+" Tagbar configuration
+map <leader>c :TagbarToggle<CR>
